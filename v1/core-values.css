@@ -1,0 +1,132 @@
+.core-values {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 28px;
+}
+
+.column {
+	max-width: 1140px;
+	margin: auto;
+	padding: 2em 20px;
+}
+
+header .column {
+	padding: 0;
+}
+header .column img {
+	width: 100%;
+}
+
+.core-values h1 {
+	font-weight: 400;
+	font-size: 80px;
+}
+
+.core-values h2 {
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 160px;
+	line-height: 222px;
+	margin: 0;
+}
+.core-values h2 strong {
+	font-weight: normal;
+}
+
+.core-values .subhead {
+	font-size: 52px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.bg-globe {
+	background-image: url('img/white-globe.svg');
+	background-position: 75%;
+	background-attachment: fixed;
+	background-size: 40%;
+	background-repeat: no-repeat;
+}
+.bg-eggshell {
+	background-color: #f0edef;
+	color: #30272d;
+}
+.bg-red {
+	background-color: #8D191C;
+	color: white;
+}
+.bg-crimson {
+	background-color: #430b0d;
+	color: white;
+}
+.bg-cyan {
+	background-color: #99d6ff;
+	color: #0c0a0b;
+}
+
+.pin-right-column {
+	display: flex;
+}
+.pin-right-column .pinned * {
+	max-width: 100%;
+}
+@media (min-width: 1000px) {
+	.pin-right-column {
+		flex-direction: row;
+	}
+	.pin-right-column .prose {
+		flex-shrink: 2;
+	}
+	.pin-right-column .pinned {
+		flex-shrink: 0;
+		width: 440px;
+		margin-left: 2em;
+	}
+	.pin-right-column .pinned * {
+		position: sticky;
+		margin-top: 2em; /* distance from top before scrolling */
+		top: calc((100vh - 440px)/2); /* distance from top while scrolling */
+		border: 5px solid white;
+	}
+}
+@media (max-width: 999px) {
+	.pin-right-column {
+		flex-direction: column;
+	}
+	.pin-right-column .pinned {
+		width: 80%;
+		margin: 0 auto 50px auto;
+	}
+
+}
+
+.prose p {
+	margin: 2em 0;
+	line-height: 1.6em;
+}
+
+p.indent-1 {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+p.indent-2 {
+	margin-left: 100px;
+	margin-right: 50px;
+}
+p.indent-3 {
+	margin-left: 150px;
+	margin-right: 50px;
+}
+p.indent-4 {
+	margin-left: 200px;
+	margin-right: 50px;
+}
+p.indent-5 {
+	margin-left: 250px;
+	margin-right: 50px;
+}
+
+.divider {
+	width: 100%;
+	height: 15px;
+	background-color: #F4A641;
+}
