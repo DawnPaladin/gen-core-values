@@ -125,6 +125,22 @@ p.indent-5 {
 	margin-left: 250px;
 	margin-right: 50px;
 }
+p.indent-6 {
+	margin-left: 300px;
+	margin-right: 50px;
+}
+p.indent-7 {
+	margin-left: 350px;
+	margin-right: 50px;
+}
+p.indent-8 {
+	margin-left: 400px;
+	margin-right: 50px;
+}
+p.indent-9 {
+	margin-left: 450px;
+	margin-right: 50px;
+}
 
 .divider {
 	width: 100%;
