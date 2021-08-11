@@ -1,5 +1,5 @@
 .core-values {
-	font-family: 'Gentium Book Basic', serif;
+	font-family: 'Raleway', serif;
 	font-size: 28px;
 }
 
@@ -19,6 +19,7 @@ header .column img {
 .core-values h1 {
 	font-weight: 400;
 	font-size: 80px;
+	font-family: "Raleway", sans-serif;
 }
 
 .core-values h2 {
@@ -35,7 +36,7 @@ header .column img {
 
 .core-values .subhead {
 	font-size: 52px;
-	font-weight: 700;
+	font-weight: 300;
 	font-style: italic;
 }
 
