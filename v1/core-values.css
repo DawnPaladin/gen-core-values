@@ -18,8 +18,13 @@ header .column img {
 
 .core-values h1 {
 	font-weight: 400;
-	font-size: 80px;
+	font-size: 82px;
 	font-family: "Raleway", sans-serif;
+}
+@media (min-width: 1000px) {
+	.core-values .seven-core-values {
+		font-size: 98px;
+	}
 }
 
 .core-values h2 {
