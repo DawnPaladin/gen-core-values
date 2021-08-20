@@ -63,6 +63,14 @@ header .column img {
 	background-color: #99d6ff;
 	color: #0c0a0b;
 }
+.bg-tan {
+	background-color: #ccbd96;
+	color: #0c0a0b;
+}
+.bg-gold {
+	background-color: #fde585;
+	color: #0c0a0b;
+}
 
 .pin-right-column {
 	display: flex;
@@ -103,6 +111,10 @@ header .column img {
 .prose p {
 	margin: 2em 0;
 	line-height: 1.6em;
+}
+.prose ul li {
+	margin-top: .75em;
+	margin-bottom: .75em;
 }
 
 p.indent-1 {
