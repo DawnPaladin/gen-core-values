@@ -114,7 +114,7 @@ header .column img {
 }
 
 .prose p {
-	margin: 2em 0;
+	margin-top: 2em;
 	line-height: 1.6em;
 }
 .prose ul li {
@@ -122,40 +122,45 @@ header .column img {
 	margin-bottom: .75em;
 }
 
+.prose p.snug {
+	margin-top: .75em;
+	margin-bottom: 0;
+}
+
 p.indent-1 {
-	margin-left: 50px;
+	margin-left: 30px;
 	margin-right: 50px;
 }
 p.indent-2 {
-	margin-left: 100px;
+	margin-left: 60px;
 	margin-right: 50px;
 }
 p.indent-3 {
-	margin-left: 150px;
+	margin-left: 90px;
 	margin-right: 50px;
 }
 p.indent-4 {
-	margin-left: 200px;
+	margin-left: 120px;
 	margin-right: 50px;
 }
 p.indent-5 {
-	margin-left: 250px;
+	margin-left: 150px;
 	margin-right: 50px;
 }
 p.indent-6 {
-	margin-left: 300px;
+	margin-left: 180px;
 	margin-right: 50px;
 }
 p.indent-7 {
-	margin-left: 350px;
+	margin-left: 210px;
 	margin-right: 50px;
 }
 p.indent-8 {
-	margin-left: 400px;
+	margin-left: 240px;
 	margin-right: 50px;
 }
 p.indent-9 {
-	margin-left: 450px;
+	margin-left: 270px;
 	margin-right: 50px;
 }
 
