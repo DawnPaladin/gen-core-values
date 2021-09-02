@@ -16,6 +16,10 @@ header .column img {
 	width: 100%;
 }
 
+.wide-column {
+	padding: 2em;
+}
+
 .core-values h1 {
 	font-weight: 400;
 	font-size: 82px;
@@ -60,6 +64,9 @@ header .column img {
 	background-color: #8D191C;
 	color: white;
 }
+.bg-crimson .pinned img {
+	border-color: #430b0d;
+}
 .bg-crimson {
 	background-color: #430b0d;
 	color: white;
@@ -68,13 +75,22 @@ header .column img {
 	background-color: #99d6ff;
 	color: #0c0a0b;
 }
+.bg-cyan .pinned img {
+	border-color: #99d6ff;
+}
 .bg-tan {
 	background-color: #ccbd96;
 	color: #0c0a0b;
 }
+.bg-tan .pinned img {
+	border-color: #ccbd96;
+}
 .bg-gold {
 	background-color: #fde585;
 	color: #0c0a0b;
+}
+.bg-gold .pinned img {
+	border-color: #fde585;
 }
 
 .pin-right-column {
@@ -88,18 +104,17 @@ header .column img {
 		flex-direction: row;
 	}
 	.pin-right-column .prose {
-		flex-shrink: 2;
+		flex: 3;
 	}
 	.pin-right-column .pinned {
-		flex-shrink: 0;
-		width: 440px;
+		flex: 2;
 		margin-left: 2em;
 	}
 	.pin-right-column .pinned * {
 		position: sticky;
-		margin-top: 2em; /* distance from top before scrolling */
+		margin-top: 20px; /* distance from top before scrolling */
 		top: calc((100vh - 440px)/2); /* distance from top while scrolling */
-		border: 5px solid white;
+		border: 5px solid;
 	}
 }
 @media (max-width: 999px) {
