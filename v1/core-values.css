@@ -71,25 +71,18 @@ header .column img {
 	background-color: #430b0d;
 	color: white;
 }
-.bg-cyan {
-	background-color: #99d6ff;
-	color: #0c0a0b;
-}
-.bg-cyan .pinned img {
-	border-color: #99d6ff;
-}
-.bg-tan {
-	background-color: #ccbd96;
-	color: #0c0a0b;
-}
-.bg-tan .pinned img {
-	border-color: #ccbd96;
-}
 .bg-gold {
-	background-color: #fde585;
+	background-color: #f4a641;
 	color: #0c0a0b;
 }
 .bg-gold .pinned img {
+	border-color: #f4a641;
+}
+.bg-yellow {
+	background-color: #fde585;
+	color: #0c0a0b;
+}
+.bg-yellow .pinned img {
 	border-color: #fde585;
 }
 
