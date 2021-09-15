@@ -35,9 +35,9 @@ header .column img {
 	font-family: "Saira Extra Condensed", sans-serif;
 	font-style: normal;
 	font-weight: 200;
-	font-size: 160px;
-	line-height: 222px;
-	margin: 0;
+	font-size: 126px;
+	line-height: 136px;
+	margin: 0 0 .25em 0;
 }
 .core-values h2 strong {
 	font-weight: normal;
@@ -50,18 +50,19 @@ header .column img {
 }
 
 .bg-globe {
-	background-image: url('img/white-globe.svg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
 @media (min-width: 1000px) {
 	.bg-globe {
+		background-image: url('img/white-globe.svg');
 		background-position: 75%;
 		background-size: 40%;
 	}
 }
 @media (max-width: 999px) {
 	.bg-globe {
+		background-image: url('img/white-globe-faded.svg');
 		background-size: 80%;
 		background-position: 50%;
 	}
