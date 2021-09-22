@@ -1,6 +1,15 @@
 .core-values {
 	font-family: 'Raleway', serif;
-	font-size: 28px;
+}
+@media (min-width: 1000px) {
+	.core-values {
+		font-size: 28px;
+	}
+}
+@media (max-width: 999px) {
+	.core-values {
+		font-size: 18px;
+	}
 }
 
 .printable-version {
@@ -64,23 +73,38 @@ header .column img {
 		font-size: 98px;
 	}
 }
+@media (max-width: 999px) {
+	.core-values h1 {
+		font-size: 36px;
+	}
+}
 
 .core-values h2 {
 	font-family: "Saira Extra Condensed", sans-serif;
 	font-style: normal;
 	font-weight: 200;
 	font-size: 126px;
-	line-height: 136px;
+	line-height: 1em;
 	margin: 0 0 .25em 0;
 }
 .core-values h2 strong {
 	font-weight: normal;
+}
+@media (max-width: 999px) {
+	.core-values h2 {
+		font-size: 4.25em;
+	}
 }
 
 .core-values .subhead {
 	font-size: 52px;
 	font-weight: 300;
 	font-style: italic;
+}
+@media (max-width: 999px) {
+	.core-values .subhead {
+		font-size: 1.8em;
+	}
 }
 
 .bg-globe {
