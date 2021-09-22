@@ -58,6 +58,7 @@ header .column img {
 	font-size: 52px;
 	font-weight: 300;
 	font-style: italic;
+	line-height: normal;
 }
 
 .bg-globe {
@@ -81,10 +82,14 @@ header .column img {
 
 .bg-eggshell {
 	background-color: #f0edef;
+}
+.bg-eggshell h1 {
 	color: #30272d;
 }
 .bg-red {
 	background-color: #8D191C;
+}
+.bg-red h1 {
 	color: white;
 }
 .bg-crimson .pinned img {
@@ -94,8 +99,14 @@ header .column img {
 	background-color: #430b0d;
 	color: white;
 }
+.bg-crimson h2 {
+	color: white;
+}
 .bg-yellow {
 	background-color: #fde585;
+	color: #0c0a0b;
+}
+.bg-yellow h2 {
 	color: #0c0a0b;
 }
 .bg-yellow .pinned img {
