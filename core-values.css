@@ -3,6 +3,17 @@
 	font-size: 28px;
 }
 
+.printable-version {
+	float: right;
+	font-size: .8em;
+	text-align: center;
+	margin: 15px;
+	max-width: 100px;
+}
+.printable-version p {
+	margin: 5px;
+}
+
 .column {
 	max-width: 1140px;
 	margin: auto;
