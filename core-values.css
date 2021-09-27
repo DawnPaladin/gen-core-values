@@ -22,6 +22,10 @@
 .printable-version p {
 	margin: 5px;
 }
+.printable-version img {
+	width: 61px;
+	height: 71px;
+}
 
 .column {
 	max-width: 1140px;
