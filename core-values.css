@@ -4,14 +4,37 @@
 }
 
 .printable-version {
-	float: right;
 	font-size: .8em;
-	text-align: center;
-	margin: 15px;
-	max-width: 100px;
 }
-.printable-version p {
-	margin: 5px;
+.printable-version a {
+	color: rgb(67, 11, 13);
+}
+@media (min-width: 1300px) {
+	div.printable-version {
+		margin-top: -115px;
+	}
+}
+@media (min-width: 1000px) {
+	.printable-version {
+		float: right;
+		text-align: center;
+		margin: 15px;
+		max-width: 100px;
+	}
+	.printable-version img {
+		width: 61px;
+		height: 71px;
+	}
+}
+@media (max-width: 999px) {
+	.printable-version {
+		margin: 15px 0;
+	}
+	.printable-version img {
+		width: 1em;
+		height: 1em;
+		display: inline-block;
+	}
 }
 
 .column {
