@@ -1,3 +1,11 @@
+/* the7 theme setting overflow: hidden on the page causes position: sticky on images to fail */
+div#page, div.vc_row[data-vc-full-width] { 
+	overflow: inherit; 
+}
+body {
+	overflow-x: inherit !important;
+}
+
 .core-values {
 	font-family: 'Raleway', serif;
 }
@@ -60,13 +68,16 @@ header .column img {
 }
 
 .wide-column {
-	padding: 2em;
+	padding: 1.5em;
 }
 
 .core-values h1 {
 	font-weight: 400;
-	font-size: 82px;
+	font-size: 2.6em;
 	font-family: "Raleway", sans-serif;
+}
+h1.seven-core-values {
+	color: white;
 }
 @media (min-width: 1000px) {
 	.core-values .seven-core-values {
@@ -83,7 +94,7 @@ header .column img {
 	font-family: "Saira Extra Condensed", sans-serif;
 	font-style: normal;
 	font-weight: 200;
-	font-size: 126px;
+	font-size: 4.5em;
 	line-height: 1em;
 	margin: 0 0 .25em 0;
 }
@@ -97,14 +108,20 @@ header .column img {
 }
 
 .core-values .subhead {
-	font-size: 52px;
+	font-size: 2em;
 	font-weight: 300;
 	font-style: italic;
+	line-height: 1.2em;
 }
 @media (max-width: 999px) {
 	.core-values .subhead {
 		font-size: 1.8em;
 	}
+}
+
+.core-values p {
+	margin: 1em 0;
+	line-height: 1.25em;
 }
 
 .bg-globe {
